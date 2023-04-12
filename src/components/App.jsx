@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <div>
         <h1>
           <span>emojipedia</span>
