@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "https//billstephens2022.github.io/Emojipedia/static/js/main.1e39f0bd.chunk.js",
-    "main.js.map": "https//billstephens2022.github.io/Emojipedia/static/js/main.1e39f0bd.chunk.js.map",
+    "main.js": "https//billstephens2022.github.io/Emojipedia/static/js/main.c2c36c0c.chunk.js",
+    "main.js.map": "https//billstephens2022.github.io/Emojipedia/static/js/main.c2c36c0c.chunk.js.map",
     "runtime-main.js": "https//billstephens2022.github.io/Emojipedia/static/js/runtime-main.666ff354.js",
     "runtime-main.js.map": "https//billstephens2022.github.io/Emojipedia/static/js/runtime-main.666ff354.js.map",
-    "static/js/2.85700247.chunk.js": "https//billstephens2022.github.io/Emojipedia/static/js/2.85700247.chunk.js",
-    "static/js/2.85700247.chunk.js.map": "https//billstephens2022.github.io/Emojipedia/static/js/2.85700247.chunk.js.map",
+    "static/js/2.ed891b9d.chunk.js": "https//billstephens2022.github.io/Emojipedia/static/js/2.ed891b9d.chunk.js",
+    "static/js/2.ed891b9d.chunk.js.map": "https//billstephens2022.github.io/Emojipedia/static/js/2.ed891b9d.chunk.js.map",
     "index.html": "https//billstephens2022.github.io/Emojipedia/index.html",
-    "precache-manifest.641abe3ceb6178b4ab65f3d29dc669b2.js": "https//billstephens2022.github.io/Emojipedia/precache-manifest.641abe3ceb6178b4ab65f3d29dc669b2.js",
+    "precache-manifest.5a5678824f3458f7a98dfc09f8ad6fe7.js": "https//billstephens2022.github.io/Emojipedia/precache-manifest.5a5678824f3458f7a98dfc09f8ad6fe7.js",
     "service-worker.js": "https//billstephens2022.github.io/Emojipedia/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.666ff354.js",
-    "static/js/2.85700247.chunk.js",
-    "static/js/main.1e39f0bd.chunk.js"
+    "static/js/2.ed891b9d.chunk.js",
+    "static/js/main.c2c36c0c.chunk.js"
   ]
 }
