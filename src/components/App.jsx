@@ -1,15 +1,16 @@
 import React from "react";
-import { BrowserRouter, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Entry from "./Entry";
 import emojipedia from "../emojipedia";
 
 function App() {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <Router basename={process.env.PUBLIC_URL}>
       <div>
         <h1>
           <span>emojipedia</span>
         </h1>
+        <Routes>
           <Route exact path="/">
             <dl className="dictionary">
               {emojipedia.map((emojiTerm) => (
@@ -22,8 +23,9 @@ function App() {
               ))}
             </dl>
           </Route>
+          </Routes>
       </div>
-    </BrowserRouter>
+    </Router>
   );
 }
 
