@@ -1,11 +1,11 @@
 # Emojipedia
 
+
 ## Description
 
-Emojipedia is a REACT app which displays cards with Emojis and their corresponding description/definition.
+Emojipedia is a REACT app which displays cards with the emoji along with the description/definition.  
 
-<img width="1058" alt="emojipedia" src="https://user-images.githubusercontent.com/113722447/203428436-407efafe-e027-4c7e-9ca6-493070515304.png">
-
+![emojipedia](emojipedia.png)
 
 ## Installation
 
@@ -13,7 +13,7 @@ N/A
 
 ## Usage
 
-N/A
+Deployed App URL:  https://billstephens2022.github.io/emojipedia/
 
 ## Credits
 
