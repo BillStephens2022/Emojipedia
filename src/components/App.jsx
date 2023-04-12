@@ -1,25 +1,26 @@
-import React from "react";
-import Entry from "./Entry";
-import emojipedia from "../emojipedia";
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <h1>
-        <span>emojipedia</span>
-      </h1>
-      <dl className="dictionary">
-        {emojipedia.map(emojiTerm => (
-        <Entry
-          key={emojiTerm.id}
-          emoji={emojiTerm.emoji}
-          name={emojiTerm.name}
-          meaning={emojiTerm.meaning} 
-        />
-      ))}         
-      </dl>
-    </div>
+    <BrowserRouter>
+      <div>
+        <h1>
+          <span>emojipedia</span>
+        </h1>
+          <Route exact path="/">
+            <dl className="dictionary">
+              {emojipedia.map((emojiTerm) => (
+                <Entry
+                  key={emojiTerm.id}
+                  emoji={emojiTerm.emoji}
+                  name={emojiTerm.name}
+                  meaning={emojiTerm.meaning}
+                />
+              ))}
+            </dl>
+          </Route>
+      </div>
+    </BrowserRouter>
   );
 }
 
-export default App;
