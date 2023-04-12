@@ -1,4 +1,7 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import React from "react";
+import { BrowserRouter, Route } from 'react-router-dom';
+import Entry from "./Entry";
+import emojipedia from "../emojipedia";
 
 function App() {
   return (
